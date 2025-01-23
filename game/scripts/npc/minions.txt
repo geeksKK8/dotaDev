@@ -7,6 +7,7 @@
 {
 
 	"npc_kv_generator_test" {
+		"Searchable" "1"
 		"Cost" "1"
 		"BaseClass" "npc_dota_creature"
 		"Model" "models/heroes/earthshaker/earthshaker.vmdl"
@@ -35,7 +36,7 @@
 		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
 		"ArmorPhysical" "5"
 		"MagicalResistance" "0"
-		"StatusHealth" "500"
+		"StatusHealth" "200"
 		"StatusHealthRegen" "0"
 		"StatusMana" "100"
 		"StatusManaRegen" "0"
@@ -51,20 +52,2112 @@
 		"ProjectileSpeed" "0"
 		"HasInventory" "1"
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	"npc_dota_unit_undying_zombie" {
+		"Searchable" "1"
+		"Creature" {
+			"AttachWearables" {
+			}
+		}
+		"Ability1" ""
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+	}
+	"bz_pa_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/phantom_assassin/phantom_assassin.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "137" }
+				"2" { "ItemDef" "138" }
+				"3" { "ItemDef" "139" }
+				"4" { "ItemDef" "140" }
+				"5" { "ItemDef" "141" }
+			}
+		}
+		"SoundSet" "Hero_PhantomAssassin"
+		"particle_folder" "particles/units/heroes/hero_phantom_assassin"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_phantom_assassin.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_phantom_assassin.vsndevts"
+		"Ability1" "phantom_assassin_coup_de_grace"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "24"
+		"AttackDamageMax" "26"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "21"
+		"AttributeStrengthGain" "1.5000"
+		"AttributeBaseAgility" "23"
+		"AttributeAgilityGain" "2.4000"
+		"AttributeBaseIntelligence" "15"
+		"AttributeIntelligenceGain" "1"
+	}
+	"bz_pa_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/phantom_assassin/phantom_assassin.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "8586" }
+				"2" { "ItemDef" "8587" }
+				"3" { "ItemDef" "8588" }
+				"4" { "ItemDef" "8589" }
+				"5" { "ItemDef" "8590" }
+			}
+		}
+		"SoundSet" "Hero_PhantomAssassin"
+		"particle_folder" "particles/units/heroes/hero_phantom_assassin"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_phantom_assassin.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_phantom_assassin.vsndevts"
+		"Ability1" "phantom_assassin_coup_de_grace"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "24"
+		"AttackDamageMax" "26"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "21"
+		"AttributeStrengthGain" "2.2000"
+		"AttributeBaseAgility" "23"
+		"AttributeAgilityGain" "3.4000"
+		"AttributeBaseIntelligence" "15"
+		"AttributeIntelligenceGain" "1.4000"
+	}
+	"bz_pa_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/phantom_assassin/phantom_assassin.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "6872" }
+				"2" { "ItemDef" "14948" }
+				"3" { "ItemDef" "18450" }
+				"4" { "ItemDef" "18451" }
+				"5" { "ItemDef" "13478" }
+			}
+		}
+		"SoundSet" "Hero_PhantomAssassin"
+		"particle_folder" "particles/units/heroes/hero_phantom_assassin"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_phantom_assassin.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_phantom_assassin.vsndevts"
+		"Ability1" "phantom_assassin_coup_de_grace"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "24"
+		"AttackDamageMax" "26"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "21"
+		"AttributeStrengthGain" "3.1000"
+		"AttributeBaseAgility" "23"
+		"AttributeAgilityGain" "4.8000"
+		"AttributeBaseIntelligence" "15"
+		"AttributeIntelligenceGain" "2"
+	}
+	"bz_meepo_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/meepo/meepo.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "296" }
+				"2" { "ItemDef" "104" }
+				"3" { "ItemDef" "298" }
+				"4" { "ItemDef" "297" }
+				"5" { "ItemDef" "299" }
+			}
+		}
+		"SoundSet" "Hero_Meepo"
+		"particle_folder" "particles/units/heroes/hero_meepo"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_meepo.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_meepo.vsndevts"
+		"Ability1" "Ability_meepo_ransack"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "3"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "22"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3800"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "1.3000"
+		"AttributeBaseAgility" "24"
+		"AttributeAgilityGain" "1.3000"
+		"AttributeBaseIntelligence" "20"
+		"AttributeIntelligenceGain" "1.1000"
+	}
+	"bz_meepo_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/meepo/meepo.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "4911" }
+				"2" { "ItemDef" "4912" }
+				"3" { "ItemDef" "4913" }
+				"4" { "ItemDef" "4914" }
+				"5" { "ItemDef" "6227" }
+			}
+		}
+		"SoundSet" "Hero_Meepo"
+		"particle_folder" "particles/units/heroes/hero_meepo"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_meepo.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_meepo.vsndevts"
+		"Ability1" "Ability_meepo_ransack"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "3"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "22"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3800"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "1.8000"
+		"AttributeBaseAgility" "17"
+		"AttributeAgilityGain" "1.8000"
+		"AttributeBaseIntelligence" "20"
+		"AttributeIntelligenceGain" "1.6000"
+	}
+	"bz_meepo_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/meepo/meepo.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "7704" }
+				"2" { "ItemDef" "7705" }
+				"3" { "ItemDef" "9075" }
+				"4" { "ItemDef" "7719" }
+				"5" { "ItemDef" "7698" }
+			}
+		}
+		"SoundSet" "Hero_Meepo"
+		"particle_folder" "particles/units/heroes/hero_meepo"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_meepo.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_meepo.vsndevts"
+		"Ability1" "Ability_meepo_ransack"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "3"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "22"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3800"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "2.5000"
+		"AttributeBaseAgility" "24"
+		"AttributeAgilityGain" "2.5000"
+		"AttributeBaseIntelligence" "20"
+		"AttributeIntelligenceGain" "2.2000"
+	}
+	"bz_pudge_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "47" }
+				"2" { "ItemDef" "262" }
+				"3" { "ItemDef" "259" }
+				"4" { "ItemDef" "261" }
+				"5" { "ItemDef" "260" }
+				"6" { "ItemDef" "258" }
+				"7" { "ItemDef" "470" }
+			}
+		}
+		"SoundSet" "Hero_Pudge"
+		"particle_folder" "particles/units/heroes/hero_pudge"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_pudge.vsndevts"
+		"Ability1" "Ability_BZ_pudge_rot"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "-2"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "40"
+		"AttackDamageMax" "46"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"ProjectileSpeed" "0"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "2.2000"
+		"AttributeBaseAgility" "14"
+		"AttributeAgilityGain" "1.1000"
+		"AttributeBaseIntelligence" "16"
+		"AttributeIntelligenceGain" "1.1000"
+	}
+	"bz_pudge_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "9454" }
+				"2" { "ItemDef" "9458" }
+				"3" { "ItemDef" "9456" }
+				"4" { "ItemDef" "9475" }
+				"5" { "ItemDef" "9468" }
+				"6" { "ItemDef" "9459" }
+				"7" { "ItemDef" "9472" }
+			}
+		}
+		"SoundSet" "Hero_Pudge"
+		"particle_folder" "particles/units/heroes/hero_pudge"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_pudge.vsndevts"
+		"Ability1" "Ability_BZ_pudge_rot"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "-2"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "40"
+		"AttackDamageMax" "46"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"ProjectileSpeed" "0"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "3.2000"
+		"AttributeBaseAgility" "14"
+		"AttributeAgilityGain" "1.5000"
+		"AttributeBaseIntelligence" "16"
+		"AttributeIntelligenceGain" "1.5000"
+	}
+	"bz_pudge_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/pudge/pudge.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "4007" }
+				"2" { "ItemDef" "9192" }
+				"3" { "ItemDef" "6226" }
+				"4" { "ItemDef" "7166" }
+				"5" { "ItemDef" "7742" }
+				"6" { "ItemDef" "7756" }
+				"7" { "ItemDef" "7169" }
+			}
+		}
+		"SoundSet" "Hero_Pudge"
+		"particle_folder" "particles/units/heroes/hero_pudge"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_pudge.vsndevts"
+		"Ability1" "Ability_BZ_pudge_rot"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "-2"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "40"
+		"AttackDamageMax" "46"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"ProjectileSpeed" "0"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "4.5000"
+		"AttributeBaseAgility" "14"
+		"AttributeAgilityGain" "2.1000"
+		"AttributeBaseIntelligence" "16"
+		"AttributeIntelligenceGain" "2.1000"
+	}
+	"bz_lina_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/lina/lina.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "318" }
+				"2" { "ItemDef" "319" }
+				"3" { "ItemDef" "320" }
+				"4" { "ItemDef" "321" }
+				"5" { "ItemDef" "504" }
+			}
+		}
+		"SoundSet" "Hero_Lina"
+		"particle_folder" "particles/units/heroes/hero_lina"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_lina.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_lina.vsndevts"
+		"Ability1" "Ability_BZ_lina_dragon_slave"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "21"
+		"AttackDamageMax" "33"
+		"AttackRate" "1.6000"
+		"AttackAnimationPoint" "0.7500"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "400"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_lina/lina_base_attack.vpcf"
+		"ProjectileSpeed" "1000"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength" "20"
+		"AttributeStrengthGain" "1.7000"
+		"AttributeBaseAgility" "23"
+		"AttributeAgilityGain" "1.3000"
+		"AttributeBaseIntelligence" "30"
+		"AttributeIntelligenceGain" "2.6000"
+	}
+	"bz_lina_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/lina/lina.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "4757" }
+				"2" { "ItemDef" "5931" }
+				"3" { "ItemDef" "5932" }
+				"4" { "ItemDef" "5933" }
+				"5" { "ItemDef" "504" }
+			}
+		}
+		"SoundSet" "Hero_Lina"
+		"particle_folder" "particles/units/heroes/hero_lina"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_lina.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_lina.vsndevts"
+		"Ability1" "Ability_BZ_lina_dragon_slave"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "21"
+		"AttackDamageMax" "33"
+		"AttackRate" "1.6000"
+		"AttackAnimationPoint" "0.7500"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "400"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_lina/lina_base_attack.vpcf"
+		"ProjectileSpeed" "1000"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength" "20"
+		"AttributeStrengthGain" "2.4000"
+		"AttributeBaseAgility" "23"
+		"AttributeAgilityGain" "1.8000"
+		"AttributeBaseIntelligence" "30"
+		"AttributeIntelligenceGain" "3.7000"
+	}
+	"bz_lina_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/lina/lina.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "8003" }
+				"2" { "ItemDef" "4794" }
+				"3" { "ItemDef" "7717" }
+				"4" { "ItemDef" "7716" }
+				"5" { "ItemDef" "504" }
+				"6" { "ItemDef" "14251" }
+			}
+		}
+		"SoundSet" "Hero_Lina"
+		"particle_folder" "particles/units/heroes/hero_lina"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_lina.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_lina.vsndevts"
+		"Ability1" "Ability_BZ_lina_dragon_slave"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "21"
+		"AttackDamageMax" "33"
+		"AttackRate" "1.6000"
+		"AttackAnimationPoint" "0.7500"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "400"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_lina/lina_base_attack.vpcf"
+		"ProjectileSpeed" "1000"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength" "20"
+		"AttributeStrengthGain" "3.4000"
+		"AttributeBaseAgility" "23"
+		"AttributeAgilityGain" "2.5000"
+		"AttributeBaseIntelligence" "30"
+		"AttributeIntelligenceGain" "5.2000"
+	}
+	"bz_zuus_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/zeus/zeus.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "8632" }
+				"2" { "ItemDef" "605" }
+				"3" { "ItemDef" "607" }
+				"4" { "ItemDef" "606" }
+				"5" { "ItemDef" "8692" }
+				"6" { "ItemDef" "604" }
+				"7" { "ItemDef" "593" }
+			}
+		}
+		"SoundSet" "Hero_zuus"
+		"particle_folder" "particles/units/heroes/hero_zuus,particles/units/heroes/hero_zeus"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_zuus.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_zuus.vsndevts"
+		"Ability1" "Ability_BZ_zuus_lightning_bolt"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "33"
+		"AttackDamageMax" "41"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.4500"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "400"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_zuus/zuus_base_attack.vpcf"
+		"ProjectileSpeed" "1100"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength" "19"
+		"AttributeStrengthGain" "1.5000"
+		"AttributeBaseAgility" "11"
+		"AttributeAgilityGain" "0.8000"
+		"AttributeBaseIntelligence" "22"
+		"AttributeIntelligenceGain" "2.3000"
+	}
+	"bz_zuus_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/zeus/zeus.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "8069" }
+				"2" { "ItemDef" "605" }
+				"3" { "ItemDef" "9037" }
+				"4" { "ItemDef" "9038" }
+				"5" { "ItemDef" "9052" }
+				"6" { "ItemDef" "5412" }
+			}
+		}
+		"SoundSet" "Hero_zuus"
+		"particle_folder" "particles/units/heroes/hero_zuus,particles/units/heroes/hero_zeus"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_zuus.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_zuus.vsndevts"
+		"Ability1" "Ability_BZ_zuus_lightning_bolt"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "33"
+		"AttackDamageMax" "41"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.4500"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "400"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_zuus/zuus_base_attack.vpcf"
+		"ProjectileSpeed" "1100"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength" "19"
+		"AttributeStrengthGain" "2.1000"
+		"AttributeBaseAgility" "11"
+		"AttributeAgilityGain" "1.2000"
+		"AttributeBaseIntelligence" "22"
+		"AttributeIntelligenceGain" "3.3000"
+	}
+	"bz_zuus_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/zeus/zeus.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "8069" }
+				"2" { "ItemDef" "605" }
+				"3" { "ItemDef" "9037" }
+				"4" { "ItemDef" "12323" }
+				"5" { "ItemDef" "6914" }
+				"6" { "ItemDef" "5412" }
+			}
+		}
+		"SoundSet" "Hero_zuus"
+		"particle_folder" "particles/units/heroes/hero_zuus,particles/units/heroes/hero_zeus"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_zuus.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_zuus.vsndevts"
+		"Ability1" "Ability_BZ_zuus_lightning_bolt"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "33"
+		"AttackDamageMax" "41"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.4500"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "400"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_zuus/zuus_base_attack.vpcf"
+		"ProjectileSpeed" "1100"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength" "19"
+		"AttributeStrengthGain" "2.9000"
+		"AttributeBaseAgility" "11"
+		"AttributeAgilityGain" "1.7000"
+		"AttributeBaseIntelligence" "22"
+		"AttributeIntelligenceGain" "4.6000"
+	}
+	"bz_axe_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/axe/axe.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "2" }
+				"2" { "ItemDef" "3" }
+				"3" { "ItemDef" "4" }
+				"4" { "ItemDef" "5" }
+			}
+		}
+		"SoundSet" "Hero_Axe"
+		"particle_folder" "particles/units/heroes/hero_axe"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_axe.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_axe.vsndevts"
+		"Ability1" "Ability_axe_helix_counter"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "-1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "27"
+		"AttackDamageMax" "31"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "2.4000"
+		"AttributeBaseAgility" "20"
+		"AttributeAgilityGain" "1.5000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "1.1000"
+	}
+	"bz_axe_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/axe/axe.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "5106" }
+				"2" { "ItemDef" "5107" }
+				"3" { "ItemDef" "5108" }
+				"4" { "ItemDef" "5109" }
+				"5" { "ItemDef" "4364" }
+				"6" { "ItemDef" "4528" }
+			}
+		}
+		"SoundSet" "Hero_Axe"
+		"particle_folder" "particles/units/heroes/hero_axe"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_axe.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_axe.vsndevts"
+		"Ability1" "Ability_axe_helix_counter"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "-1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "27"
+		"AttackDamageMax" "31"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "3.4000"
+		"AttributeBaseAgility" "20"
+		"AttributeAgilityGain" "2.2000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "1.6000"
+	}
+	"bz_axe_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/axe/axe.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "8468" }
+				"2" { "ItemDef" "7766" }
+				"3" { "ItemDef" "7214" }
+				"4" { "ItemDef" "6605" }
+				"5" { "ItemDef" "5675" }
+				"6" { "ItemDef" "4528" }
+			}
+		}
+		"SoundSet" "Hero_Axe"
+		"particle_folder" "particles/units/heroes/hero_axe"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_axe.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_axe.vsndevts"
+		"Ability1" "Ability_axe_helix_counter"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "-1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "27"
+		"AttackDamageMax" "31"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "4.8000"
+		"AttributeBaseAgility" "20"
+		"AttributeAgilityGain" "3.1000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "2.2000"
+	}
+	"bz_bloodseeker_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/blood_seeker/blood_seeker.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "69" }
+				"2" { "ItemDef" "70" }
+				"3" { "ItemDef" "71" }
+				"4" { "ItemDef" "72" }
+				"5" { "ItemDef" "73" }
+				"6" { "ItemDef" "74" }
+				"7" { "ItemDef" "257" }
+			}
+		}
+		"SoundSet" "Hero_Bloodseeker"
+		"particle_folder" "particles/units/heroes/hero_bloodseeker"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_bloodseeker.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_bloodseeker.vsndevts"
+		"Ability1" "Ability_bloodseeker_thirst"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "3"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "33"
+		"AttackDamageMax" "39"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.4300"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "1.9000"
+		"AttributeBaseAgility" "24"
+		"AttributeAgilityGain" "2.4000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "1.2000"
+	}
+	"bz_bloodseeker_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/blood_seeker/blood_seeker.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "12718" }
+				"2" { "ItemDef" "12719" }
+				"3" { "ItemDef" "12720" }
+				"4" { "ItemDef" "12721" }
+				"6" { "ItemDef" "12723" }
+			}
+		}
+		"SoundSet" "Hero_Bloodseeker"
+		"particle_folder" "particles/units/heroes/hero_bloodseeker"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_bloodseeker.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_bloodseeker.vsndevts"
+		"Ability1" "Ability_bloodseeker_thirst"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "3"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "33"
+		"AttackDamageMax" "39"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.4300"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "2.7000"
+		"AttributeBaseAgility" "24"
+		"AttributeAgilityGain" "3.4000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "1.7000"
+	}
+	"bz_bloodseeker_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/blood_seeker/blood_seeker.vmdl"
+		"ModelScale" "1"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "12719" }
+				"2" { "ItemDef" "12720" }
+				"3" { "ItemDef" "12721" }
+				"4" { "ItemDef" "12722" }
+				"5" { "ItemDef" "9241" }
+				"6" { "ItemDef" "7425" }
+				"7" { "ItemDef" "7426" }
+			}
+		}
+		"SoundSet" "Hero_Bloodseeker"
+		"particle_folder" "particles/units/heroes/hero_bloodseeker"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_bloodseeker.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_bloodseeker.vsndevts"
+		"Ability1" "Ability_bloodseeker_thirst"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "3"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "33"
+		"AttackDamageMax" "39"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.4300"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "3.8000"
+		"AttributeBaseAgility" "24"
+		"AttributeAgilityGain" "4.8000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "2.4000"
+	}
+	"bz_techies_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/techies/techies.vmdl"
+		"ModelScale" "0.6000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "394" }
+				"2" { "ItemDef" "487" }
+				"3" { "ItemDef" "489" }
+				"4" { "ItemDef" "490" }
+				"5" { "ItemDef" "491" }
+				"6" { "ItemDef" "492" }
+				"7" { "ItemDef" "499" }
+			}
+		}
+		"SoundSet" "Hero_Techies"
+		"particle_folder" "particles/units/heroes/hero_techies"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_techies.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_techies.vsndevts"
+		"Ability1" "Ability_BZ_techies_land_mines"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "5"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "9"
+		"AttackDamageMax" "11"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "500"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_techies/techies_base_attack.vpcf"
+		"ProjectileSpeed" "900"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_ALL"
+		"AttributeBaseStrength" "19"
+		"AttributeStrengthGain" "1.8000"
+		"AttributeBaseAgility" "14"
+		"AttributeAgilityGain" "0.9000"
+		"AttributeBaseIntelligence" "25"
+		"AttributeIntelligenceGain" "2.3000"
+	}
+	"bz_techies_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/techies/techies.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "9961" }
+				"2" { "ItemDef" "9963" }
+				"3" { "ItemDef" "9964" }
+				"4" { "ItemDef" "9966" }
+				"5" { "ItemDef" "9962" }
+				"6" { "ItemDef" "9960" }
+				"7" { "ItemDef" "9965" }
+				"8" { "ItemDef" "21211" }
+			}
+		}
+		"SoundSet" "Hero_Techies"
+		"particle_folder" "particles/units/heroes/hero_techies"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_techies.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_techies.vsndevts"
+		"Ability1" "Ability_BZ_techies_land_mines"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "5"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "9"
+		"AttackDamageMax" "11"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "500"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_techies/techies_base_attack.vpcf"
+		"ProjectileSpeed" "900"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_ALL"
+		"AttributeBaseStrength" "19"
+		"AttributeStrengthGain" "2.5000"
+		"AttributeBaseAgility" "14"
+		"AttributeAgilityGain" "1.3000"
+		"AttributeBaseIntelligence" "25"
+		"AttributeIntelligenceGain" "3.3000"
+	}
+	"bz_techies_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/techies/techies.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "6879" }
+				"2" { "ItemDef" "12834" }
+				"3" { "ItemDef" "12835" }
+				"4" { "ItemDef" "12836" }
+				"5" { "ItemDef" "12839" }
+				"6" { "ItemDef" "12840" }
+				"7" { "ItemDef" "12833" }
+			}
+		}
+		"SoundSet" "Hero_Techies"
+		"particle_folder" "particles/units/heroes/hero_techies"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_techies.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_techies.vsndevts"
+		"Ability1" "Ability_BZ_techies_land_mines"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_RANGED_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "5"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "9"
+		"AttackDamageMax" "11"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "800"
+		"AttackRange" "500"
+		"RingRadius" "60"
+		"ProjectileModel" "particles/units/heroes/hero_techies/techies_base_attack.vpcf"
+		"ProjectileSpeed" "900"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_ALL"
+		"AttributeBaseStrength" "19"
+		"AttributeStrengthGain" "3.5000"
+		"AttributeBaseAgility" "14"
+		"AttributeAgilityGain" "1.8000"
+		"AttributeBaseIntelligence" "25"
+		"AttributeIntelligenceGain" "4.6000"
+	}
+	"bz_dragon_knight_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
+		"ModelScale" "0.6000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "63" }
+				"2" { "ItemDef" "64" }
+				"3" { "ItemDef" "65" }
+				"4" { "ItemDef" "66" }
+				"5" { "ItemDef" "67" }
+				"6" { "ItemDef" "68" }
+			}
+		}
+		"SoundSet" "Hero_DragonKnight"
+		"particle_folder" "particles/units/heroes/hero_dragon_knight"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_dragon_knight.vsndevts"
+		"Ability1" "Ability_dragon_knight_elder_dragon_form"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_HERO"
+		"ArmorPhysical" "0"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "31"
+		"AttackDamageMax" "37"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"ProjectileSpeed" "900"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "21"
+		"AttributeStrengthGain" "2.4000"
+		"AttributeBaseAgility" "19"
+		"AttributeAgilityGain" "1.4000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "1.2000"
+	}
+	"bz_dragon_knight_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "8963" }
+				"2" { "ItemDef" "8974" }
+				"3" { "ItemDef" "8975" }
+				"4" { "ItemDef" "8978" }
+				"5" { "ItemDef" "7671" }
+				"6" { "ItemDef" "8976" }
+				"7" { "ItemDef" "8977" }
+			}
+		}
+		"SoundSet" "Hero_DragonKnight"
+		"particle_folder" "particles/units/heroes/hero_dragon_knight"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_dragon_knight.vsndevts"
+		"Ability1" "Ability_dragon_knight_elder_dragon_form"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_HERO"
+		"ArmorPhysical" "0"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "31"
+		"AttackDamageMax" "37"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"ProjectileSpeed" "900"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "21"
+		"AttributeStrengthGain" "3.4000"
+		"AttributeBaseAgility" "19"
+		"AttributeAgilityGain" "2"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "1.7000"
+	}
+	"bz_dragon_knight_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "13324" }
+				"2" { "ItemDef" "13325" }
+				"3" { "ItemDef" "13330" }
+				"4" { "ItemDef" "9134" }
+				"5" { "ItemDef" "13329" }
+				"6" { "ItemDef" "13327" }
+				"7" { "ItemDef" "13328" }
+			}
+		}
+		"SoundSet" "Hero_DragonKnight"
+		"particle_folder" "particles/units/heroes/hero_dragon_knight"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_dragon_knight.vsndevts"
+		"Ability1" "Ability_dragon_knight_elder_dragon_form"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_HERO"
+		"ArmorPhysical" "0"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "31"
+		"AttackDamageMax" "37"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.5000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"ProjectileSpeed" "900"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "21"
+		"AttributeStrengthGain" "4.8000"
+		"AttributeBaseAgility" "19"
+		"AttributeAgilityGain" "2.8000"
+		"AttributeBaseIntelligence" "18"
+		"AttributeIntelligenceGain" "2.4000"
+	}
+	"bz_undying_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/undying/undying.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "392" }
+				"2" { "ItemDef" "393" }
+				"3" { "ItemDef" "616" }
+			}
+		}
+		"SoundSet" "Hero_Undying"
+		"particle_folder" "particles/units/heroes/hero_undying"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_undying.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_undying.vsndevts"
+		"Ability1" "Ability_undying_tombstone"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "35"
+		"AttackDamageMax" "43"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "22"
+		"AttributeStrengthGain" "2"
+		"AttributeBaseAgility" "10"
+		"AttributeAgilityGain" "0.8000"
+		"AttributeBaseIntelligence" "27"
+		"AttributeIntelligenceGain" "2"
+	}
+	"bz_undying_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/undying/undying.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "9330" }
+				"2" { "ItemDef" "9331" }
+				"3" { "ItemDef" "9332" }
+				"4" { "ItemDef" "9333" }
+			}
+		}
+		"SoundSet" "Hero_Undying"
+		"particle_folder" "particles/units/heroes/hero_undying"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_undying.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_undying.vsndevts"
+		"Ability1" "Ability_undying_tombstone"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "35"
+		"AttackDamageMax" "43"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "22"
+		"AttributeStrengthGain" "2.8000"
+		"AttributeBaseAgility" "10"
+		"AttributeAgilityGain" "1.2000"
+		"AttributeBaseIntelligence" "27"
+		"AttributeIntelligenceGain" "2.8000"
+	}
+	"bz_undying_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/undying/undying.vmdl"
+		"ModelScale" "1"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "13482" }
+				"2" { "ItemDef" "13483" }
+				"3" { "ItemDef" "13484" }
+				"4" { "ItemDef" "13485" }
+			}
+		}
+		"SoundSet" "Hero_Undying"
+		"particle_folder" "particles/units/heroes/hero_undying"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_undying.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_undying.vsndevts"
+		"Ability1" "Ability_undying_tombstone"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "35"
+		"AttackDamageMax" "43"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "22"
+		"AttributeStrengthGain" "3.9000"
+		"AttributeBaseAgility" "10"
+		"AttributeAgilityGain" "1.7000"
+		"AttributeBaseIntelligence" "27"
+		"AttributeIntelligenceGain" "3.9000"
+	}
+	"bz_life_stealer_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/life_stealer/life_stealer.vmdl"
+		"ModelScale" "0.6000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "6463" }
+				"2" { "ItemDef" "6464" }
+				"3" { "ItemDef" "6465" }
+				"4" { "ItemDef" "6466" }
+			}
+		}
+		"SoundSet" "Hero_LifeStealer"
+		"particle_folder" "particles/units/heroes/hero_life_stealer"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_life_stealer.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_life_stealer.vsndevts"
+		"Ability1" "Ability_life_stealer_feast"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "22"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3900"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "1.7000"
+		"AttributeBaseAgility" "19"
+		"AttributeAgilityGain" "1.8000"
+		"AttributeBaseIntelligence" "15"
+		"AttributeIntelligenceGain" "1.3000"
+	}
+	"bz_life_stealer_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/life_stealer/life_stealer.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "23451" }
+				"2" { "ItemDef" "23452" }
+				"3" { "ItemDef" "23453" }
+				"4" { "ItemDef" "23454" }
+			}
+		}
+		"SoundSet" "Hero_LifeStealer"
+		"particle_folder" "particles/units/heroes/hero_life_stealer"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_life_stealer.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_life_stealer.vsndevts"
+		"Ability1" "Ability_life_stealer_feast"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "22"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3900"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "2.4000"
+		"AttributeBaseAgility" "19"
+		"AttributeAgilityGain" "2.6000"
+		"AttributeBaseIntelligence" "15"
+		"AttributeIntelligenceGain" "1.8000"
+	}
+	"bz_life_stealer_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/life_stealer/life_stealer.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "9108" }
+				"2" { "ItemDef" "9215" }
+				"3" { "ItemDef" "12998" }
+				"4" { "ItemDef" "13818" }
+			}
+		}
+		"SoundSet" "Hero_LifeStealer"
+		"particle_folder" "particles/units/heroes/hero_life_stealer"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_life_stealer.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_life_stealer.vsndevts"
+		"Ability1" "Ability_life_stealer_feast"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "22"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3900"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength" "25"
+		"AttributeStrengthGain" "3.4000"
+		"AttributeBaseAgility" "19"
+		"AttributeAgilityGain" "3.6000"
+		"AttributeBaseIntelligence" "15"
+		"AttributeIntelligenceGain" "2.5000"
+	}
+	"bz_ursa_1" {
+		"Searchable" "1"
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/ursa/ursa.vmdl"
+		"ModelScale" "0.7000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "4295" }
+				"2" { "ItemDef" "7921" }
+				"3" { "ItemDef" "4292" }
+				"4" { "ItemDef" "5665" }
+			}
+		}
+		"SoundSet" "Hero_Ursa"
+		"particle_folder" "particles/units/heroes/hero_ursa"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_ursa.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_ursa.vsndevts"
+		"Ability1" "Ability_ursa_fury_swipes"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "24"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "1.8000"
+		"AttributeBaseAgility" "18"
+		"AttributeAgilityGain" "1.7000"
+		"AttributeBaseIntelligence" "16"
+		"AttributeIntelligenceGain" "1.1000"
+	}
+	"bz_ursa_11" {
+		"Searchable" "1"
+		"Cost" "2"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/ursa/ursa.vmdl"
+		"ModelScale" "0.8000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "28114" }
+				"2" { "ItemDef" "27142" }
+				"3" { "ItemDef" "27143" }
+				"4" { "ItemDef" "5805" }
+			}
+		}
+		"SoundSet" "Hero_Ursa"
+		"particle_folder" "particles/units/heroes/hero_ursa"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_ursa.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_ursa.vsndevts"
+		"Ability1" "Ability_ursa_fury_swipes"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "24"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "2.6000"
+		"AttributeBaseAgility" "18"
+		"AttributeAgilityGain" "2.4000"
+		"AttributeBaseIntelligence" "16"
+		"AttributeIntelligenceGain" "1.5000"
+	}
+	"bz_ursa_111" {
+		"Searchable" "1"
+		"Cost" "3"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/heroes/ursa/ursa.vmdl"
+		"ModelScale" "0.9000"
+		"Creature" {
+			"AttachWearables" {
+				"1" { "ItemDef" "12982" }
+				"2" { "ItemDef" "14944" }
+				"3" { "ItemDef" "23334" }
+				"4" { "ItemDef" "6893" }
+				"5" { "ItemDef" "7654" }
+			}
+		}
+		"SoundSet" "Hero_Ursa"
+		"particle_folder" "particles/units/heroes/hero_ursa"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_ursa.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_ursa.vsndevts"
+		"Ability1" "Ability_ursa_fury_swipes"
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "-1"
+		"MovementSpeed" "300"
+		"MovementTurnRate" "1"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		"ArmorPhysical" "1"
+		"MagicalResistance" "25"
+		"StatusHealth" "200"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "0"
+		"BountyGoldMax" "0"
+		"AttackDamageMin" "24"
+		"AttackDamageMax" "28"
+		"AttackRate" "1.7000"
+		"AttackAnimationPoint" "0.3000"
+		"AttackAcquisitionRange" "600"
+		"AttackRange" "300"
+		"RingRadius" "60"
+		"Level" "1"
+		"HasInventory" "1"
+		"AttributePrimary" "DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength" "24"
+		"AttributeStrengthGain" "3.6000"
+		"AttributeBaseAgility" "18"
+		"AttributeAgilityGain" "3.4000"
+		"AttributeBaseIntelligence" "16"
+		"AttributeIntelligenceGain" "2.1000"
+	}
 }

@@ -1,98 +1,439 @@
-"DOTAHeroes"
-{
-    // "npc_hero_phoenix_custom"
-    // {
-    //     "override_hero"             "npc_dota_hero_phoenix"
-    //     "Model"						""
-	// 	"ModelScale"		        ""
-    //     "DisableWearables"	        "1"
+"Heroes"{
+	
+	// =================================================================================================================
+	// HERO: Templar Assassin
+	// =================================================================================================================
+	"npc_dota_hero_phantom_assassin"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		"HasInventory"	"1"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// 单位使用饰品
+		// "AttachWearables"
+		// {
+		//    "Wearable1" { "ItemDef" "63" }                  // 每个"IdemDef" 的整数值可以在items_game.txt中找到
+		//    "Wearable2" { "ItemDef" "64" }                  // 注意:最近的饰品模型在Source 2中尚不可用，试图使用这些代码会失败
+		//    "Wearable3" { "ItemDef" "65" }                  // 如果你想确保模型存在，可以使用模型浏览器（model browser）查找其英雄名称
+		//    "Wearable4" { "ItemDef" "66" }
+		//    "Wearable5" { "ItemDef" "67" }
+		//    "Wearable6" { "ItemDef" "68" }
+		// }
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_phantom_strike"
+		"Ability2"	"phantom_assassin_coup_de_grace"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_AGILITY"
+	}
 
-    //     "Ability1"                  "generic_hidden"        
-    //     "Ability2"                  "generic_hidden"        
-    //     "Ability3"                  "generic_hidden"            
-    //     "Ability4"                  "generic_hidden"
-    //     "Ability5"                  "generic_hidden"
-    //     "Ability6"                  "generic_hidden"
+	"npc_dota_hero_meepo"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_meepo_poof"
+		"Ability2"	"Ability_meepo_ransack"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"	"24"
+		"AttributeStrengthGain"	"2.600000"
+		"AttributeBaseAgility"	"24"
+		"AttributeAgilityGain"	"3.200000"
+		"AttributeBaseIntelligence"	"20"
+		"AttributeIntelligenceGain"	"2.600000"
+	}
 
-    //     "Ability8"                  "generic_hidden"
-    //     "Ability9"                  "generic_hidden"
-    //     "Ability10"                 "generic_hidden"
-    //     "Ability11"                 "generic_hidden"
-    //     "Ability12"                 "generic_hidden"
-    //     "Ability13"                 "generic_hidden"
-    //     "Ability14"                 "generic_hidden"
-    //     "Ability15"                 "generic_hidden"
-    //     "Ability16"                 "generic_hidden"
-    //     "Ability17"                 "generic_hidden"
-    //     "Ability18"                 "generic_hidden"
+	"npc_dota_hero_pudge"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_STRENGTH"
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_pudge_meat_hook"
+		"Ability2"	"Ability_pudge_rot"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+	}
 
-    //     // Armor
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "ArmorPhysical"     "0"
-    //     "MagicalResistance"     "0"
+	"npc_dota_hero_lina"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_lina_dragon_slave"
+		"Ability2"	"Ability_lina_light_strike_array"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_INTELLECT"
+		"AttackRange"	"400"
+	}
 
-    //     // Attack
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "AttackCapabilities"        "DOTA_UNIT_CAP_NO_ATTACK"
-    //     "BaseAttackSpeed"       "100"
-    //     "AttackDamageMin"       "0"
-    //     "AttackDamageMax"       "0"
-    //     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-    //     "AttackRate"        "1"
-    //     "AttackAnimationPoint"      "1"
-    //     "AttackAcquisitionRange"        "1"
-    //     "AttackRange"       "1"
-    //     "ProjectileModel"       ""
-    //     "ProjectileSpeed"       "1"
+	"npc_dota_hero_zuus"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_zuus_arc_lightning"
+		"Ability2"	"Ability_zuus_lightning_bolt"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_INTELLECT"
+		"AttackRange"	"400"
+	}
 
-    //     // Attributes
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
-    //     "AttributeBaseStrength"     "0"
-    //     "AttributeStrengthGain"     "0"
-    //     "AttributeBaseIntelligence"     "0"
-    //     "AttributeIntelligenceGain"     "0"
-    //     "AttributeBaseAgility"      "0"
-    //     "AttributeAgilityGain"      "0"
+	"npc_dota_hero_axe"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_axe_battle_hunger"
+		"Ability2"	"Ability_axe_helix_counter"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_STRENGTH"
+	}
 
-    //     // Bounty
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "BountyXP"      "0"
-    //     "BountyGoldMin"     "0"
-    //     "BountyGoldMax"     "0"
+	"npc_dota_hero_techies"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_techies_land_mines"
+		"Ability2"	"Ability_techies_minefield_sign"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_INTELLECT"
+		"AttackRange"	"500"
+	}
 
-    //     // Bounds
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "BoundsHullName"        "DOTA_HULL_SIZE_HERO"
-    //     "RingRadius"        "70"
+	"npc_dota_hero_bloodseeker"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_bloodseeker_thirst"
+		"Ability2"	"Ability_bloodseeker_rupture"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_AGILITY"
+	}
 
-    //     // Movement
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
-    //     "MovementSpeed"     "550"
-    //     "MovementTurnRate"      "0.500000"
-    //     "HasAggressiveStance"       "0"
+	"npc_dota_hero_dragon_knight"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_dragon_knight_breathe_fire"
+		"Ability2"	"Ability_dragon_knight_elder_dragon_form"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_STRENGTH"
+		// "AttributeBaseStrength"	"19"
+		// "AttributeStrengthGain"	"3.600000"
+		// "AttributeBaseAgility"	"19"
+		// "AttributeAgilityGain"	"2.000000"
+		// "AttributeBaseIntelligence"	"18"
+		// "AttributeIntelligenceGain"	"1.700000"
+	}
 
-    //     // Status
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "StatusHealth"      "100"
-    //     "StatusMana"        "1000"
-    //     "StatusManaRegen"   "0"
-    //     "StatusHealthRegen" "0"
+	// "npc_dota_hero_warlock"
+	// {
+	// 	"AutoAttacksByDefault"	"0"
+	// 	// 魔法上限
+	// 	"StatusMana"	"0"
+	// 	// "AttributePrimary"	"0"
+	// 	// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+	// 	"AbilityLayout"	"2"
+	// 	"Ability1"	""
+	// 	"Ability2"	""
+	// 	"Ability3"	""
+	// 	"Ability4"	""
+	// 	"Ability5"	""
+	// 	"Ability6"	""
+	// 	"Ability7"	""
+	// 	"Ability8"	""
+	// 	"Ability9"	""
+	// 	"Ability10"	"tt7"
+	// 	"Ability11"	"tt8"
+	// 	"Ability12"	"tt5"
+	// 	"Ability13"	"tt6"
+	// 	"Ability14"	"tt3"
+	// 	"Ability15"	"tt4"
+	// 	"Ability16"	"tt1"
+	// 	"Ability17"	"tt2"
+	// 	// "AttributePrimary"	"DOTA_ATTRIBUTE_STRENGTH"
+	// }
 
-    //     // Team
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "TeamName"      "DOTA_TEAM_GOODGUYS"
-    //     "CombatClassAttack"     "DOTA_COMBAT_CLASS_ATTACK_HERO"
-    //     "CombatClassDefend"     "DOTA_COMBAT_CLASS_DEFEND_HERO"
-    //     "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_HERO"
+	"npc_dota_hero_undying"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_undying_soul_rip"
+		"Ability2"	"Ability_undying_flesh_golem"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_STRENGTH"
+		// "AttributeBaseStrength"	"22"
+		// "AttributeStrengthGain"	"2.800000"
+		// "AttributeBaseAgility"	"10"
+		// "AttributeAgilityGain"	"0.800000"
+		// "AttributeBaseIntelligence"	"27"
+		// "AttributeIntelligenceGain"	"2.800000"
+	}
 
-    //     // Vision
-    //     //-------------------------------------------------------------------------------------------------------------
-    //     "VisionDaytimeRange"        "1800"
-    //     "VisionNighttimeRange"      "800"
+	"npc_dota_hero_life_stealer"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_life_stealer_open_wounds"
+		"Ability2"	"Ability_life_stealer_feast"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+		// "AttributePrimary"	"DOTA_ATTRIBUTE_STRENGTH"
+		// "AttributeBaseStrength"	"22"
+		// "AttributeStrengthGain"	"2.800000"
+		// "AttributeBaseAgility"	"10"
+		// "AttributeAgilityGain"	"0.800000"
+		// "AttributeBaseIntelligence"	"27"
+		// "AttributeIntelligenceGain"	"2.800000"
+	}
 
-    //     //Inventory
-    //     "HasInventory"      "1"
-    // }
+	"npc_dota_hero_ursa"
+	{
+		"ModelScale"	"0.6"
+		"AutoAttacksByDefault"	"0"
+		// 选择圈半径
+		"RingRadius"	"50"
+		// 魔法上限
+		"StatusMana"	"0"
+		// "HealthBarOffset"			"100"					//血条高度
+		// 技能槽数量，最低4个，最高为6个，单位可以同时拥有最多16个技能
+		"AbilityLayout"	"2"
+		"Ability1"	"Ability_ursa_earthshock"
+		"Ability2"	"Ability_ursa_fury_swipes"
+		"Ability3"	""
+		"Ability4"	""
+		"Ability5"	""
+		"Ability6"	""
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	"tt7"
+		"Ability11"	"tt8"
+		"Ability12"	"tt5"
+		"Ability13"	"tt6"
+		"Ability14"	"tt3"
+		"Ability15"	"tt4"
+		"Ability16"	"tt1"
+		"Ability17"	"tt2"
+	}
 }

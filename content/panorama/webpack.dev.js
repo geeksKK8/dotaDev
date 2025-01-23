@@ -94,6 +94,11 @@ module.exports = {
                 // if type is not set, it will not be included in the manifest
                 // usually used for loading screen, tooltips and popups which loaded
                 // by engine or BLoadLayout etc.
+
+                // 最先加载的启动页面
+                { import: './setup/layout.xml', type: 'GameSetup' },
+
+                // 加载页面
                 { import: './loading-screen/layout.xml', filename: 'custom_loading_screen.xml' },
 
                 // provide type and filename to include in the manifest
@@ -101,10 +106,24 @@ module.exports = {
 
                 // if filename is not set, it will use the name of the entry
                 { import: './hud/layout.xml', type: 'Hud' },
+                { import: './hud/TopBar/layout.xml', type: 'HudTopBar' },
+                // 选择英雄界面
+                { import: './hero_selection/layout.xml', type: 'HeroSelection' },
+                // 记分板 tab键
+                { import: './scoreboard/layout.xml', type: 'FlyoutScoreboard' },
+
+                /**
+                 *  "GameSetup",
+                    "HeroSelection",
+                    "Hud",
+                    "HudTopBar",
+                    "FlyoutScoreboard",
+                    "GameInfo",
+                    "EndScreen"
+                 */
             ],
         }),
         // use ignore plugin to ignore less files changes
-        // they are watched and compiled in gulpfile.ts
         new WatchIgnorePlugin({ paths: [/\.less$/] }),
     ],
 };
